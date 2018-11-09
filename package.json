@@ -1,0 +1,35 @@
+{
+  "name": "druesne_epsi_b2_js",
+  "version": "1.0.0",
+  "description": "Projet de démonstration du cours JS",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "log": "node log.js",
+    "start1": "node index1.js",
+    "start2": "node index2.js",
+    "start3": "node index3.js",
+    "server": "http-server dist",
+    "servercors": "http-server -o --cors dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaonL0/druesne_epsi_b2_js.git"
+  },
+  "keywords": [
+    "demo",
+    "cours",
+    "epsi"
+  ],
+  "author": "ldr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaonL0/druesne_epsi_b2_js/issues"
+  },
+  "homepage": "https://github.com/kaonL0/druesne_epsi_b2_js#readme"
+}
